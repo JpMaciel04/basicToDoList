@@ -47,16 +47,14 @@ A aplicação abre o terminal com as seguintes opções:
 - `src/main/java/org/example/repository/` — armazenamento temporário em memória
 - `src/main/java/org/example/models/` — classes de modelo de usuário, tarefa e status
 
-## 💡 Regras de negócios aplicadas
+## 💡 Algumas regras de negócios aplicadas
 
-
-- O nome do usuário não pode ser vazio.
 - A tarefa é sempre criada com o status **Pendente**.
 - Cada usuário só pode ter até 5 tarefas com status **Pendente**.
 - Não é permitido cadastrar tarefa sem usuário responsável.
 - Tarefas com status **Finalizado** não podem ser excluídas.
 - Tarefas com status **Finalizado** não podem ter a descrição alterada.
-- Ao alterar status ou descrição, a tarefa deve existir e não estar finalizada.
+- Ao alterar status ou descrição a tarefa  não estar com status de finalizada.
 
 
 
