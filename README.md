@@ -11,7 +11,9 @@ O projeto simula o funcionamento de um sistema real, organizando o código em di
 
 Essa abordagem permite um código mais **organizado, escalável e fácil de manter**, além de aproximar a aplicação de padrões utilizados no mercado com frameworks como Spring Boot.
 
-O sistema permite o gerenciamento de usuários e tarefas, incluindo criação, listagem, atualização e remoção, além de aplicar regras de negócio. 🌟 O que este projeto faz:
+O sistema permite o gerenciamento de usuários e tarefas, incluindo criação, listagem, atualização e remoção, além de aplicar regras de negócio. 
+
+## 🌟 O que este projeto faz
 
 - Cadastra usuários
 - Lista usuários cadastrados
